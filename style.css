@@ -12,9 +12,17 @@ body, html {
 }
 
 #imagem {
-    width: 75px;
+    width: 5%;
     height: auto;
     position: fixed;
-    bottom: 254px;
-    left: 50px;
+    bottom: 26%;
+    left: 10px;
+
+
+
+}
+
+.flip-image {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
